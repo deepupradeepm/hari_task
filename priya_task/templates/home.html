@@ -1,0 +1,28 @@
+<head>
+    <style>
+        ul{
+            display: block;
+            float: left;
+        }
+        li{
+            display: block;
+            float: left;
+            border: 20px;
+            margin: 20px;
+            padding: 20px;
+            text-decoration: none;
+        }
+        a{
+            float: left;
+            display: block;
+            color: chartreuse;
+            background-color: blanchedalmond;
+            text-decoration: none;
+            font-size: 150%;
+        }
+    </style>
+</head>
+<ul>
+    <li><a href="{% url 'search' %}">search</a> </li>
+    <li><a href="{% url 'list' %}">show_all</a> </li>
+</ul>
